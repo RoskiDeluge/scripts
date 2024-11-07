@@ -50,7 +50,7 @@ Examples:
 
 Output:
 - The script creates a new CSV file with the transformed data
-- Default output filename: transformed_<input-filename>
+- Default output filename: transformed_`<input-filename>`
 - Header row is automatically added: "name,city"
 
 Notes:
