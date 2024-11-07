@@ -13,7 +13,7 @@ Options:
 -a : AWK condition for filtering rows (default: $3 > 30) \
 -s : SED pattern for text replacement (default: s/San Francisco/SF/g) \
 -c : Columns to extract (default: 2,4) \
--o : Output filename (default: transformed_<input-filename>)
+-o : Output filename (default: transformed_`<input-filename>`)
 
 Examples:
 
