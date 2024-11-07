@@ -50,7 +50,3 @@ This guide will help you create quick aliases for the scripts located in the `/U
    ```bash
    myscript
    ```
-
-## Conclusion
-
-You should now have a basic understanding of how to create and use aliases for your scripts. Feel free to create as many aliases as necessary for your convenience.
