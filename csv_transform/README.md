@@ -43,7 +43,7 @@ Examples:
 ./transform.sh -o processed_data.csv data.csv
 ```
 
-6. Comine all options:
+6. Combine all options:
 ```bash
 ./transform.sh -a '$3 > 25' -s 's/New York/NY/g' -c '1,3,5' -o processed_data.csv data.csv
 ```
