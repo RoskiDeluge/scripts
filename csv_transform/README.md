@@ -48,6 +48,10 @@ Examples:
 ./transform.sh -a '$3 > 25' -s 's/New York/NY/g' -c '1,3,5' -o processed_data.csv data.csv
 ```
 
+```python
+python transform.py input.csv -o output.csv -a '$3 > 30' -s 's/San Francisco/SF/g' -c '2,4'
+```
+
 Output:
 - The script creates a new CSV file with the transformed data
 - Default output filename: transformed_`<input-filename>`
