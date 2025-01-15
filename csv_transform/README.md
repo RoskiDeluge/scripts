@@ -7,6 +7,9 @@ A flexible CSV transformation script that allows filtering, text replacement, an
 ```bash
 ./transform.sh [-a awk_condition] [-s sed_condition] [-c cut_fields] [-o output_file] <path-to-file>
 ```
+```python
+python transform.py input.csv -o output.csv -a '$3 > 30' -s 's/San Francisco/SF/g' -c '2,4'
+```
 
 Options: 
 
